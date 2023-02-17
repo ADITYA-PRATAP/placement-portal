@@ -2,6 +2,7 @@
  import './login.css'
  import AVA from './Nomads\ -\ Avatar.png'
  import PIC from './ad.png'
+import CoursePla from '../coursespla/CoursePla'
 //  import {useHistory} from "react-router-dom";
  
  const Login = () => {
@@ -19,14 +20,14 @@
      <img src={AVA} className="ro1"></img>
      
      </div>
-     <input className="slider" type="text" placeholder='email or mobile number'></input><br></br>
+     <input className="slider" type="email"  name="email"placeholder='email@.comn'></input><br></br>
      <input className="slider" type="text" placeholder='password'></input><br></br>
      
     
 
      
 
-     <button id='slide1' >Submit</button>
+     <a href='/course'><button id='slide1' >Submit</button></a>
      </div>
 
      <div id='a'>

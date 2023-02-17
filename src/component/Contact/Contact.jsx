@@ -24,6 +24,7 @@ const Contact = () => {
     e.preventDefault();
     alert(
       `My Name is ${data.fullname}.
+
       number is ${data.phone},
       email is ${data.email} and
         here is what i want to say  ${data.msg}`
@@ -46,17 +47,17 @@ const Contact = () => {
         <div className="col">
           <form onSubmit={formSubmit}>
 
-  <div class="mb-3">
+  <div>
     <label for="exampleFormControlInput1"  >Full Name </label><br/>
     <input type="text"   class="form-control"  id="exampleFormControlInput1" name="fullname" value={data.fullname}  onChange={InputEvent} placeholder="Name" />
   </div>
 
-  <div class="mb-3">
+  <div   >
     <label for="exampleFormControlInput1"  >Phone Number</label><br/>
     <input type="number"  class="form-control"  id="exampleFormControlInput1"   name="phone"   value={data.phone}  onChange={InputEvent}   placeholder="your Number" />   
   </div>   
 
-  <div class="mb-3">
+  <div   >
     <label for="exampleFormControlInput1"  >Email address</label><br/>
     <input     type="email"     class="form-control"     id="exampleFormControlInput1"     name="email"     value={data.email}     onChange={InputEvent}     placeholder="name@example.com" />
   </div>
@@ -66,7 +67,7 @@ const Contact = () => {
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"     name="msg"     value={data.msg}     onChange={InputEvent}     placeholder="Message" ></textarea>
   </div>
 
-  <div class="">
+  <div >
     <button class="btn" > Submit From </button>
   </div>
 
