@@ -1,0 +1,105 @@
+#full{
+    width:100%;
+    height:700px;
+    /* background-image: url(./image/svg\ \(3\).png); */
+  background-size: cover; 
+  background-image: url(./svg\ \(3\).png);
+}
+
+
+
+
+
+
+#login2{
+    width:500px;
+    height:500px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border-radius:20%;
+    box-shadow: 10px 10px 40px 4px rgb(70, 3, 117);
+    float:right;
+    margin-top: 50px;
+    margin-right:50px;    
+}
+
+.ro{
+    width:100px;
+    height:100px;
+    margin-left:190px;
+}
+
+.ro1{
+    width:100px;
+    height:100px;
+
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    color:rgb(113, 21, 184);
+}
+
+#slide1{
+    background-color: transparent;
+    width:90px;
+    height:50px;
+    border:0.5px solid  rgb(113, 21, 184);
+    border-top-right-radius:30px ;
+    border-bottom-left-radius: 30px;
+    /* position:fixed; */
+    /* margin-left:20px */
+    transition-property: all;
+    float: right ;
+    margin-right:40%;
+    margin-top:40px;    
+}
+
+
+
+
+#slide1:hover{
+    background-color: rgb(113, 21, 184);
+    transition: 0.5s;
+
+}
+
+.slider{
+    margin-top:10px;
+    margin-left: 120px;
+    width:250px;
+    height:50px;
+   margin-top:30px;
+   font-size: 2.5ch;
+    background-color: transparent;
+    border: 0.5px solid rgb(55, 29, 118);
+    border-radius:10px;
+    /* color:white;     */
+}
+#a{
+    width: 500px;
+    height:500px;
+    /* background-color: aliceblue; */
+    /* background-image:url(../login/The\ Little\ Things\ -\ Working.png); */
+    background-size: cover;
+}
+#as{
+    color:rgb(113, 21, 184);
+    margin-top: 10%;
+    margin-left: 20px;
+    font-size: 7ch;   
+}
+.text{
+    color:rgb(134, 89, 171);
+    font-size: 2ch;
+    margin-left: 20px;
+}
+.ad{
+    margin-left: 50px;
+}
+small{
+    font-size: 2ch;
+}
+
+

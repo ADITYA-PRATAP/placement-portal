@@ -1,0 +1,35 @@
+
+.s{
+    margin-left:5px;
+}
+
+
+nav{
+    /* margin-top: 0px; */
+    background:transparent;
+    width:100%;    
+    display: block;
+    padding:0.9rem 1.7rem;
+    z-index: 2;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    top: 0rem;
+    justify-content: end;
+    /* float: right; */
+    position:fixed;
+     gap: 8rem;
+     margin-right:60px;    
+     backdrop-filter: blur(15px);
+}
+nav a{
+    text-decoration: none;
+    font-size: 1ch;
+    background: transparent;
+    padding:0.2rem;
+    border-radius: 50%;
+    display: flex;
+    color: rgb(106, 40, 157);
+    font-size:1.1rem;
+
+}

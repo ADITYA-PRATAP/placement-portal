@@ -1,0 +1,32 @@
+#courses{
+    width:100%;
+    height:700px;
+    background-image: url(./footer.png);
+    /* background-color: aqua; */
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(4,0.2fr);
+    gap:0rem;
+    margin-left: 300px;
+    /* margin-top: 550px; */
+}
+.lu{
+    width: 200px;
+    height:300px;
+    /* background-color: aquamarine; */
+    margin-left: 70px;
+    margin-top: 400px; 
+}
+.df{
+    color: rgb(105, 105, 172);
+    font-size: 2.5ch;
+    display: flex;
+    gap:2rem;
+
+}
+.j{
+    width:20px;
+    height: 50px;
+    color: rgb(105, 105, 172);
+}
